@@ -48,7 +48,6 @@ function draw() {
             let state = grid[i][j];
 
             // Count live neighbors!
-            let sum = 0;
             let neighbors = countNeighbors(grid, i, j);
 
             if (state == 0 && neighbors == 3) {
